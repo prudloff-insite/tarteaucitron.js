@@ -1001,12 +1001,6 @@ var tarteaucitron = {
                         mainTop = 0;
                     }
 
-                    if (document.getElementById('tarteaucitronMainLineOffset') !== null) {
-                        if (document.getElementById('tarteaucitron').offsetHeight < (windowInnerHeight / 2)) {
-                            mainTop -= document.getElementById('tarteaucitronMainLineOffset').offsetHeight;
-                        }
-                    }
-
                     // apply
                     tarteaucitron.userInterface.css('tarteaucitron', 'top', mainTop + 'px');
                 }
